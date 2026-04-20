@@ -1,0 +1,37 @@
+{
+  "_comment": "Symbols and numbers layout for the TypeHere on-screen keyboard.",
+  "width": 13,
+  "keys": [
+    [
+      { "regular": { "chars": "0" }, "shifted": { "chars": ")" } },
+      { "regular": { "chars": "1" }, "shifted": { "chars": "!" } },
+      { "regular": { "chars": "2" }, "shifted": { "chars": "@" } },
+      { "regular": { "chars": "3" }, "shifted": { "chars": "#" } },
+      { "regular": { "chars": "4" }, "shifted": { "chars": "$" } },
+      { "regular": { "chars": "5" }, "shifted": { "chars": "%" } },
+      { "regular": { "chars": "6" }, "shifted": { "chars": "^" } },
+      { "regular": { "chars": "7" }, "shifted": { "chars": "&" } },
+      { "regular": { "chars": "8" }, "shifted": { "chars": "*" } },
+      { "regular": { "chars": "9" }, "shifted": { "chars": "(" } },
+      { "regular": { "action": "backspace" }, "width": 3.0 }
+    ],
+    [
+      "-", "_", "=", "+", "[", "]", "{", "}", "|", ";", ":",
+      { "regular": { "chars": "@" } },
+      { "regular": { "action": "enter" }, "width": 1.0 }
+    ],
+    [
+      { "regular": { "layout": "typehere:full", "display_name": "ABC" }, "width": 2.0 },
+      "~", "`", "<", ">", "?",
+      { "regular": { "chars": "'" }, "shifted": { "chars": "\"" } },
+      { "regular": { "action": "shift" } },
+      { "regular": { "action": "copy_all" }, "width": 2.0 },
+      { "regular": { "action": "paste" }, "width": 2.0 }
+    ],
+    [
+      { "regular": { "action": "left_arrow" }, "width": 1.0 },
+      { "regular": { "chars": " ", "display_name": "Space" }, "width": 11.0 },
+      { "regular": { "action": "right_arrow" }, "width": 1.0 }
+    ]
+  ]
+}

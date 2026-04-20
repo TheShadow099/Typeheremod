@@ -1,0 +1,29 @@
+{
+  "_comment": "Full QWERTY layout for the TypeHere on-screen keyboard.",
+  "width": 13,
+  "keys": [
+    [
+      { "regular": { "chars": "§" }, "shifted": { "chars": "±" } },
+      "q", "w", "e", "r", "t", "y", "u", "i", "o", "p",
+      { "regular": { "action": "backspace" }, "width": 2.0 }
+    ],
+    [
+      { "regular": { "action": "tab" }, "width": 1.0 },
+      "a", "s", "d", "f", "g", "h", "j", "k", "l",
+      { "regular": { "chars": "'" }, "shifted": { "chars": "\"" } },
+      { "regular": { "action": "enter" }, "width": 2.0 }
+    ],
+    [
+      { "regular": { "action": "shift" }, "width": 2.0 },
+      "z", "x", "c", "v", "b", "n", "m",
+      { "regular": { "chars": "," }, "shifted": { "chars": "." } },
+      { "regular": { "chars": "/" }, "shifted": { "chars": "\\" } },
+      { "regular": { "layout": "typehere:symbols", "display_name": "?123" }, "width": 2.0 }
+    ],
+    [
+      { "regular": { "action": "left_arrow" }, "width": 1.0 },
+      { "regular": { "chars": " ", "display_name": "Space" }, "width": 11.0 },
+      { "regular": { "action": "right_arrow" }, "width": 1.0 }
+    ]
+  ]
+}

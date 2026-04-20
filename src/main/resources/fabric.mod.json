@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "typehere",
+  "version": "${version}",
+  "name": "TypeHere OSK",
+  "description": "A fully functional on-screen keyboard for Minecraft 26.1. Lets controller and touch users type in chat, signs, books, and any text field without a physical keyboard.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/yourname/typehere-osk"
+  },
+  "license": "MIT",
+  "icon": "assets/typehere/icon.png",
+
+  "environment": "client",
+
+  "entrypoints": {
+    "client": [
+      "com.shadow.typehere.TypeHereClient"
+    ]
+  },
+
+  "mixins": [
+    "typehere.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

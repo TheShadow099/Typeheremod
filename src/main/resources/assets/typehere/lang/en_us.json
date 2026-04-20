@@ -1,0 +1,23 @@
+{
+  "_comment": "TypeHere On-Screen Keyboard — English (en_us) translations.",
+
+  "typehere.osk.title":          "On-Screen Keyboard",
+  "typehere.osk.open_button":    "⌨",
+  "typehere.osk.close":          "✕",
+
+  "typehere.keybind.category":   "TypeHere",
+  "typehere.keybind.toggle_osk": "Toggle On-Screen Keyboard",
+
+  "typehere.keyboard.special.shift":           "⇧",
+  "typehere.keyboard.special.shift_lock":      "⇪",
+  "typehere.keyboard.special.enter":           "↵",
+  "typehere.keyboard.special.backspace":       "⌫",
+  "typehere.keyboard.special.tab":             "⇥",
+  "typehere.keyboard.special.left_arrow":      "◀",
+  "typehere.keyboard.special.right_arrow":     "▶",
+  "typehere.keyboard.special.up_arrow":        "▲",
+  "typehere.keyboard.special.down_arrow":      "▼",
+  "typehere.keyboard.special.copy_all":        "Copy",
+  "typehere.keyboard.special.paste":           "Paste",
+  "typehere.keyboard.special.previous_layout": "←"
+}
